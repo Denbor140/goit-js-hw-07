@@ -14,6 +14,9 @@ categoriesItem.forEach(category => {
   console.log(`Elements: ${element.length}`);
 });
 
+// '.category-title' = можна замінити на h2 ?
+// '.category-item' = можна замінити на li ?
+
 // АБО (треба перетворити категорії у масив)
 // [...categories.children].forEach(elem => {
 //   const title = elem.querySelector('.category-title').textContent;
